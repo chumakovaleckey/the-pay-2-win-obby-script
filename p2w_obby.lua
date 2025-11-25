@@ -117,7 +117,7 @@ end
 function toggleAutoRebirth()
     while cfg.autoRebirth do
         remotes["Rebirth"]:FireServer(lPlayer)
-        task.wait(0.7)
+        task.wait(0.00000000001)
     end
 end
 
